@@ -1,0 +1,1287 @@
+EthernetE1200.cpp: In function 'int main(int, char**)':
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:53:3: note: in expansion of macro 'MOXA_PRINTF'
+  }
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:60:3: note: in expansion of macro 'MOXA_PRINTF'
+  }
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:66:3: note: in expansion of macro 'MOXA_PRINTF'
+  }
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:75:3: note: in expansion of macro 'MOXA_PRINTF'
+  }
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:88:3: note: in expansion of macro 'MOXA_PRINTF'
+  }
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:93:3: note: in expansion of macro 'MOXA_PRINTF'
+  }
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:107:7: note: in expansion of macro 'MOXA_PRINTF'
+      case CHECK_CONNECTION_FAIL :
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:111:7: note: in expansion of macro 'MOXA_PRINTF'
+      case CHECK_CONNECTION_TIME_OUT :
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:115:7: note: in expansion of macro 'MOXA_PRINTF'
+ 
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:126:3: note: in expansion of macro 'MOXA_PRINTF'
+  //==========================
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:135:3: note: in expansion of macro 'MOXA_PRINTF'
+  //==========================
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:142:2: note: in expansion of macro 'MOXA_PRINTF'
+  /*
+  ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:165:2: note: in expansion of macro 'MOXA_PRINTF'
+  {
+  ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:198:6: note: in expansion of macro 'MOXA_PRINTF'
+      // Write output coils
+      ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:213:6: note: in expansion of macro 'MOXA_PRINTF'
+      // Read input and output coils
+      ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:228:6: note: in expansion of macro 'MOXA_PRINTF'
+  //***********************
+      ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:243:2: note: in expansion of macro 'MOXA_PRINTF'
+  if( wSafeStatus == 1 )
+  ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:253:3: note: in expansion of macro 'MOXA_PRINTF'
+  if(wType == 0x1212)
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:266:4: note: in expansion of macro 'MOXA_PRINTF'
+     if(dwValue[0]&(1 << i))
+    ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:274:5: note: in expansion of macro 'MOXA_PRINTF'
+   //==========================
+     ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:293:6: note: in expansion of macro 'MOXA_PRINTF'
+  //==========================
+      ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:299:2: note: in expansion of macro 'MOXA_PRINTF'
+   if((wType == 0x1210) || (wType == 0x1212) || (wType == 0x1214))
+  ^
+EthernetE1200.cpp:300:2: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+  ^
+EthernetE1200.cpp:300:20: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+                    ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:318:7: note: in expansion of macro 'MOXA_PRINTF'
+          CheckErr( iRet, (char*)"E1K_DI_SetModes" );
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:326:11: note: in expansion of macro 'MOXA_PRINTF'
+            MOXA_PRINTF( DbgStr);
+           ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:330:12: note: in expansion of macro 'MOXA_PRINTF'
+          for(int i=0; i < bytCount; i++ )
+            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:341:11: note: in expansion of macro 'MOXA_PRINTF'
+            MOXA_PRINTF( DbgStr);
+           ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:345:12: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:349:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) < 65536)
+       ^
+EthernetE1200.cpp:350:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:350:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:365:11: note: in expansion of macro 'MOXA_PRINTF'
+            MOXA_PRINTF( DbgStr);
+           ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:369:12: note: in expansion of macro 'MOXA_PRINTF'
+          CheckErr( iRet, (char*)"E1K_DI_GetFilters" );
+            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:377:11: note: in expansion of macro 'MOXA_PRINTF'
+            MOXA_PRINTF( DbgStr);
+           ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:381:12: note: in expansion of macro 'MOXA_PRINTF'
+    //after set DI mode function, FW will clear DI Status to OFF, We should wait DI filter time to get correct status
+            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:391:11: note: in expansion of macro 'MOXA_PRINTF'
+         MOXA_PRINTF( DbgStr);
+           ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:395:9: note: in expansion of macro 'MOXA_PRINTF'
+      }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:405:2: note: in expansion of macro 'MOXA_PRINTF'
+   if((wType == 0x1210) || (wType == 0x1212) || (wType == 0x1214))
+  ^
+EthernetE1200.cpp:406:2: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+  ^
+EthernetE1200.cpp:406:20: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+                    ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:424:7: note: in expansion of macro 'MOXA_PRINTF'
+          CheckErr( iRet, (char*)"E1K_DI_SetModes" );
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:432:11: note: in expansion of macro 'MOXA_PRINTF'
+            MOXA_PRINTF( DbgStr);
+           ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:436:12: note: in expansion of macro 'MOXA_PRINTF'
+          for(int i=0; i < bytCount; i++ )
+            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:447:11: note: in expansion of macro 'MOXA_PRINTF'
+            MOXA_PRINTF( DbgStr);
+           ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:451:12: note: in expansion of macro 'MOXA_PRINTF'
+       sprintf( DbgStr, "***** Write DI channel count start status to (0:Stop, 1:Start) ***** : \n");
+            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:456:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:457:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:457:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:470:8: note: in expansion of macro 'MOXA_PRINTF'
+       iRet = E1K_Cnt_GetStartStatuses( iHandle, bytStartChannel, bytCount, &dwValue[0]);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:479:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:485:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:488:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:491:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:495:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) < 65536)
+       ^
+EthernetE1200.cpp:496:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:496:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:511:8: note: in expansion of macro 'MOXA_PRINTF'
+        wValue[k] = 0;
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:521:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:527:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:530:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:533:8: note: in expansion of macro 'MOXA_PRINTF'
+           dwValue[i] = 0;
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:543:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:549:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:552:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:555:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_Cnt_Clears" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:574:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:577:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:580:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_Cnt_ClearOverflows" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:588:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:592:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:593:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:593:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:606:8: note: in expansion of macro 'MOXA_PRINTF'
+       iRet = E1K_Cnt_GetPowerOnValues( iHandle, bytStartChannel, bytCount, &dwValue[0]);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:615:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:621:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:624:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:627:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:631:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:632:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:632:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:645:8: note: in expansion of macro 'MOXA_PRINTF'
+       iRet = E1K_Cnt_GetSafeValues( iHandle, bytStartChannel, bytCount, &dwValue[0]);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:654:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:660:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:663:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:666:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:670:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) < 3)
+       ^
+EthernetE1200.cpp:671:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:671:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:686:8: note: in expansion of macro 'MOXA_PRINTF'
+           wValue[i] = 0;
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:696:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:702:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:705:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:708:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:712:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:713:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:713:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:726:8: note: in expansion of macro 'MOXA_PRINTF'
+       iRet = E1K_Cnt_GetSaveStatusesOnPowerFail( iHandle, bytStartChannel, bytCount, &dwValue[0]);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:735:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:741:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:744:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:747:8: note: in expansion of macro 'MOXA_PRINTF'
+  //=========================================================================
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:755:2: note: in expansion of macro 'MOXA_PRINTF'
+   if((wType == 0x1211) || (wType == 0x1212) || (wType == 0x1214))
+  ^
+EthernetE1200.cpp:756:2: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+  ^
+EthernetE1200.cpp:756:20: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+                    ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:775:7: note: in expansion of macro 'MOXA_PRINTF'
+       {
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:781:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_DO_GetModes" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:789:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:795:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:798:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:801:8: note: in expansion of macro 'MOXA_PRINTF'
+       sprintf( DbgStr, "Set DO PowerOn Value (0=OFF or 1=ON):");
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:806:7: note: in expansion of macro 'MOXA_PRINTF'
+       else
+       ^
+EthernetE1200.cpp:807:10: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+           dwDoGetValue = 0;
+          ^
+EthernetE1200.cpp:807:28: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+           dwDoGetValue = 0;
+                            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:818:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:822:7: note: in expansion of macro 'MOXA_PRINTF'
+       {
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:828:8: note: in expansion of macro 'MOXA_PRINTF'
+         MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:832:9: note: in expansion of macro 'MOXA_PRINTF'
+       sprintf( DbgStr, "Set DO Safe Value (0=OFF, 1=ON or 2: Hold Last(E1214 Only)):");
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:837:7: note: in expansion of macro 'MOXA_PRINTF'
+              for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:838:10: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               wValue[k] = atoi(bytInputValue);
+          ^
+EthernetE1200.cpp:838:28: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               wValue[k] = atoi(bytInputValue);
+                            ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:856:9: note: in expansion of macro 'MOXA_PRINTF'
+         sprintf( DbgStr, "E1K_DO_SetSafeValues_W success,Set all DO Safe Value = %s\r\n", "Hold Last");
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:861:9: note: in expansion of macro 'MOXA_PRINTF'
+       sprintf( DbgStr, "Get DO Safe Value (0=OFF, 1=ON or 2: Hold Last):");
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:866:7: note: in expansion of macro 'MOXA_PRINTF'
+       {
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:872:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:878:10: note: in expansion of macro 'MOXA_PRINTF'
+          sprintf( DbgStr, "Get Safe DO[%d]= %s\r\n", k, "Hold Last");
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:883:10: note: in expansion of macro 'MOXA_PRINTF'
+          sprintf( DbgStr, "Get Safe DO[%d]= %s (%d)\r\n", k, "Unknown Value", wValue[k]);
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:888:10: note: in expansion of macro 'MOXA_PRINTF'
+          //==========================
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:894:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) < 300)
+       ^
+EthernetE1200.cpp:895:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:895:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:910:8: note: in expansion of macro 'MOXA_PRINTF'
+        wValue[k] = 0;
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:920:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:926:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:928:53: warning: format '%d' expects argument of type 'int', but argument 4 has type 'short unsigned int*' [-Wformat=]
+        MOXA_PRINTF( DbgStr);
+                                                     ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:929:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:932:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:936:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:937:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:937:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:950:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_DO_Reads" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:958:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:964:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:967:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:970:8: note: in expansion of macro 'MOXA_PRINTF'
+  //=========================================================================
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:978:2: note: in expansion of macro 'MOXA_PRINTF'
+   if((wType == 0x1211) || (wType == 0x1212) || (wType == 0x1214))
+  ^
+EthernetE1200.cpp:979:2: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+  ^
+EthernetE1200.cpp:979:20: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+      {
+                    ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:998:7: note: in expansion of macro 'MOXA_PRINTF'
+       {
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1004:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_DO_GetModes" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1012:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1018:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1021:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1024:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1028:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) < 65535)
+       ^
+EthernetE1200.cpp:1029:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:1029:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1040:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) < 65535)
+       ^
+EthernetE1200.cpp:1041:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:1041:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1057:8: note: in expansion of macro 'MOXA_PRINTF'
+       {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1070:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1076:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1079:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1082:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1086:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) < 4294967295)
+       ^
+EthernetE1200.cpp:1087:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+       ^
+EthernetE1200.cpp:1087:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               for(k=0; k < bytCount; k++)
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1102:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_Pulse_GetOutputCounts" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1110:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1116:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1119:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1122:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1126:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:1127:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:1127:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1140:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_Pulse_GetStartStatuses" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1148:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1154:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1157:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1160:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1164:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:1165:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:1165:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1178:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_Pulse_GetPowerOnValues" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1186:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1192:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1195:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1198:8: note: in expansion of macro 'MOXA_PRINTF'
+       MOXA_PRINTF( DbgStr);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1202:7: note: in expansion of macro 'MOXA_PRINTF'
+              if(atoi(bytInputValue) == 1)
+       ^
+EthernetE1200.cpp:1203:7: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+       ^
+EthernetE1200.cpp:1203:25: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+               dwValue[0] = 0xFFFFFFFF;
+                         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1216:8: note: in expansion of macro 'MOXA_PRINTF'
+       CheckErr( iRet, (char*)"E1K_Pulse_GetSafeValues" );
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1224:8: note: in expansion of macro 'MOXA_PRINTF'
+         {
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1230:10: note: in expansion of macro 'MOXA_PRINTF'
+        }
+          ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1233:9: note: in expansion of macro 'MOXA_PRINTF'
+       }
+         ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1236:8: note: in expansion of macro 'MOXA_PRINTF'
+  //=========================================================================
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1252:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1256:8: note: in expansion of macro 'MOXA_PRINTF'
+  //=========================================================================
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1272:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1276:8: note: in expansion of macro 'MOXA_PRINTF'
+      for(int i=0; i < bytCount; i++ )
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1287:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1291:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_GetChannelStatuses(iHandle, bytStartChannel, bytCount, wValue);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1300:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1304:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_Reads(iHandle, bytStartChannel, bytCount, dValue);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1313:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1317:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_ReadRaws(iHandle, bytStartChannel, bytCount, wValue);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1326:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1330:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_ReadMins(iHandle, bytStartChannel, bytCount, dValue);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1339:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1343:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_ReadMinRaws(iHandle, bytStartChannel, bytCount, wValue);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1352:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1356:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_ResetMins(iHandle, bytStartChannel, bytCount);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1365:7: note: in expansion of macro 'MOXA_PRINTF'
+      CheckErr( iRet, (char*)"E1K_AI_ReadMaxs" );
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1373:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1377:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_ReadMaxRaws(iHandle, bytStartChannel, bytCount, wValue);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1386:7: note: in expansion of macro 'MOXA_PRINTF'
+        MOXA_PRINTF( DbgStr);
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1390:8: note: in expansion of macro 'MOXA_PRINTF'
+      iRet = E1K_AI_ResetMaxs(iHandle, bytStartChannel, bytCount);
+        ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1399:7: note: in expansion of macro 'MOXA_PRINTF'
+  //Disconnect I/O module
+       ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1409:3: note: in expansion of macro 'MOXA_PRINTF'
+     gets(bytInputValue);
+   ^
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1412:2: note: in expansion of macro 'MOXA_PRINTF'
+ //  If a MXIO function call fails, return an error code.
+  ^
+EthernetE1200.cpp:1413:5: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+ //  If the call failed, this procedure prints an error message and exits.
+     ^
+EthernetE1200.cpp:1413:23: warning: 'char* gets(char*)' is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+ //  If the call failed, this procedure prints an error message and exits.
+                       ^
+EthernetE1200.cpp: In function 'void CheckErr(int, char*)':
+EthernetE1200.cpp:18:46: warning: format not a string literal and no format arguments [-Wformat-security]
+ #define MOXA_PRINTF( STRING ) printf( STRING )
+                                              ^
+EthernetE1200.cpp:1529:3: note: in expansion of macro 'MOXA_PRINTF'
+/tmp/ccgMWjqi.o: In function `main':
+EthernetE1200.cpp:(.text+0xdd0): warning: the `gets' function is dangerous and should not be used.
+EthernetE1200.cpp:(.text+0x294): undefined reference to `MXEIO_Init'
+EthernetE1200.cpp:(.text+0x34b): undefined reference to `MXEIO_E1K_Connect'
+EthernetE1200.cpp:(.text+0x408): undefined reference to `MXEIO_CheckConnection'
+EthernetE1200.cpp:(.text+0x52a): undefined reference to `MXIO_GetDllVersion'
+EthernetE1200.cpp:(.text+0x586): undefined reference to `MXIO_GetDllBuildDate'
+EthernetE1200.cpp:(.text+0x605): undefined reference to `MXIO_ReadFirmwareRevision'
+EthernetE1200.cpp:(.text+0x69c): undefined reference to `MXIO_ReadFirmwareDate'
+EthernetE1200.cpp:(.text+0x725): undefined reference to `MXIO_GetModuleType'
+EthernetE1200.cpp:(.text+0x7e6): undefined reference to `MXIO_WriteRegs'
+EthernetE1200.cpp:(.text+0x852): undefined reference to `MXIO_ReadRegs'
+EthernetE1200.cpp:(.text+0x8cd): undefined reference to `MXIO_WriteCoils'
+EthernetE1200.cpp:(.text+0x954): undefined reference to `MXIO_ReadCoils'
+EthernetE1200.cpp:(.text+0x9b2): undefined reference to `E1K_GetSafeStatus'
+EthernetE1200.cpp:(.text+0xa13): undefined reference to `E1K_ClearSafeStatus'
+EthernetE1200.cpp:(.text+0xac9): undefined reference to `E1K_DIO_GetIOModes'
+EthernetE1200.cpp:(.text+0xc4e): undefined reference to `MXIO_ReadRegs'
+EthernetE1200.cpp:(.text+0xf47): undefined reference to `E1K_DI_SetModes'
+EthernetE1200.cpp:(.text+0x1095): undefined reference to `E1K_DI_GetModes'
+EthernetE1200.cpp:(.text+0x12d8): undefined reference to `E1K_DI_SetFilters'
+EthernetE1200.cpp:(.text+0x13e4): undefined reference to `E1K_DI_GetFilters'
+EthernetE1200.cpp:(.text+0x14f0): undefined reference to `E1K_DI_Reads'
+EthernetE1200.cpp:(.text+0x184b): undefined reference to `E1K_DI_SetModes'
+EthernetE1200.cpp:(.text+0x1999): undefined reference to `E1K_DI_GetModes'
+EthernetE1200.cpp:(.text+0x1b9c): undefined reference to `E1K_Cnt_SetStartStatuses'
+EthernetE1200.cpp:(.text+0x1c2f): undefined reference to `E1K_Cnt_GetStartStatuses'
+EthernetE1200.cpp:(.text+0x1ea2): undefined reference to `E1K_Cnt_SetFilters'
+EthernetE1200.cpp:(.text+0x1f51): undefined reference to `E1K_Cnt_GetFilters'
+EthernetE1200.cpp:(.text+0x20f5): undefined reference to `E1K_Cnt_Reads'
+EthernetE1200.cpp:(.text+0x2219): undefined reference to `E1K_Cnt_Clears'
+EthernetE1200.cpp:(.text+0x22ea): undefined reference to `E1K_Cnt_GetOverflows'
+EthernetE1200.cpp:(.text+0x241b): undefined reference to `E1K_Cnt_ClearOverflows'
+EthernetE1200.cpp:(.text+0x25e9): undefined reference to `E1K_Cnt_SetPowerOnValues'
+EthernetE1200.cpp:(.text+0x267c): undefined reference to `E1K_Cnt_GetPowerOnValues'
+EthernetE1200.cpp:(.text+0x289c): undefined reference to `E1K_Cnt_SetSafeValues'
+EthernetE1200.cpp:(.text+0x292f): undefined reference to `E1K_Cnt_GetSafeValues'
+EthernetE1200.cpp:(.text+0x2bdd): undefined reference to `E1K_Cnt_SetTriggerTypeWords'
+EthernetE1200.cpp:(.text+0x2c8c): undefined reference to `E1K_Cnt_GetTriggerTypeWords'
+EthernetE1200.cpp:(.text+0x2f10): undefined reference to `E1K_Cnt_SetSaveStatusesOnPowerFail'
+EthernetE1200.cpp:(.text+0x2fa3): undefined reference to `E1K_Cnt_GetSaveStatusesOnPowerFail'
+EthernetE1200.cpp:(.text+0x330b): undefined reference to `E1K_DO_SetModes'
+EthernetE1200.cpp:(.text+0x3393): undefined reference to `E1K_DO_GetModes'
+EthernetE1200.cpp:(.text+0x35b1): undefined reference to `E1K_DO_SetPowerOnValues'
+EthernetE1200.cpp:(.text+0x3696): undefined reference to `E1K_DO_GetPowerOnValues'
+EthernetE1200.cpp:(.text+0x38e3): undefined reference to `E1K_DO_SetSafeValues_W'
+EthernetE1200.cpp:(.text+0x3a17): undefined reference to `E1K_DO_GetSafeValues_W'
+EthernetE1200.cpp:(.text+0x3d1a): undefined reference to `E1K_DO_SetPowerOnSeqDelaytimes'
+EthernetE1200.cpp:(.text+0x3dd6): undefined reference to `E1K_DO_GetPowerOnSeqDelaytimes'
+EthernetE1200.cpp:(.text+0x4004): undefined reference to `E1K_DO_Writes'
+EthernetE1200.cpp:(.text+0x408d): undefined reference to `E1K_DO_Reads'
+EthernetE1200.cpp:(.text+0x4409): undefined reference to `E1K_DO_SetModes'
+EthernetE1200.cpp:(.text+0x4491): undefined reference to `E1K_DO_GetModes'
+EthernetE1200.cpp:(.text+0x48a0): undefined reference to `E1K_Pulse_SetSignalWidths'
+EthernetE1200.cpp:(.text+0x4978): undefined reference to `E1K_Pulse_GetSignalWidths'
+EthernetE1200.cpp:(.text+0x4c11): undefined reference to `E1K_Pulse_SetOutputCounts'
+EthernetE1200.cpp:(.text+0x4c88): undefined reference to `E1K_Pulse_GetOutputCounts'
+EthernetE1200.cpp:(.text+0x4ed3): undefined reference to `E1K_Pulse_SetStartStatuses'
+EthernetE1200.cpp:(.text+0x4f5c): undefined reference to `E1K_Pulse_GetStartStatuses'
+EthernetE1200.cpp:(.text+0x5172): undefined reference to `E1K_Pulse_SetPowerOnValues'
+EthernetE1200.cpp:(.text+0x51fb): undefined reference to `E1K_Pulse_GetPowerOnValues'
+EthernetE1200.cpp:(.text+0x541a): undefined reference to `E1K_Pulse_SetSafeValues'
+EthernetE1200.cpp:(.text+0x54a3): undefined reference to `E1K_Pulse_GetSafeValues'
+EthernetE1200.cpp:(.text+0x5607): undefined reference to `E1K_RLY_TotalCntReads'
+EthernetE1200.cpp:(.text+0x5735): undefined reference to `E1K_AI_GetRanges'
+EthernetE1200.cpp:(.text+0x588a): undefined reference to `E1K_AI_SetChannelStatuses'
+EthernetE1200.cpp:(.text+0x59a2): undefined reference to `E1K_AI_GetChannelStatuses'
+EthernetE1200.cpp:(.text+0x5aba): undefined reference to `E1K_AI_Reads'
+EthernetE1200.cpp:(.text+0x5bcf): undefined reference to `E1K_AI_ReadRaws'
+EthernetE1200.cpp:(.text+0x5cda): undefined reference to `E1K_AI_ReadMins'
+EthernetE1200.cpp:(.text+0x5def): undefined reference to `E1K_AI_ReadMinRaws'
+EthernetE1200.cpp:(.text+0x5efd): undefined reference to `E1K_AI_ResetMins'
+EthernetE1200.cpp:(.text+0x5f6c): undefined reference to `E1K_AI_ReadMaxs'
+EthernetE1200.cpp:(.text+0x6081): undefined reference to `E1K_AI_ReadMaxRaws'
+EthernetE1200.cpp:(.text+0x618f): undefined reference to `E1K_AI_ResetMaxs'
+EthernetE1200.cpp:(.text+0x61e9): undefined reference to `MXEIO_Disconnect'
+collect2: error: ld returned 1 exit status
+make: *** [EthernetE1200] Error 1

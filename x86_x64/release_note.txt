@@ -1,0 +1,41 @@
+
+
+Product Name: MXIO Linux Library for x86 and x64
+Version: 2.11.0.0
+Release date: 01-14-2014
+File Name: mxio-library-Version_Build("Date").tgz
+Description:  MXIO Linux Library first released.
+================================================================================
+
+Release Note:
+      MXIO Linux Library is designed for programmers accessing remote digital and analog data
+ from Moxa iologik 4000 I/O Server, Moxa iologik 2000 I/O Server,Moxa iologik 4200 I/O Server,
+ Moxa iologik 5000 I/O Server, ioLogik 1200 I/O Server and and ioLogik R1000 I/O Server module
+ over an Ethernet or RS-485 network.
+ Please be noticed that Click&Go command is only used ioLogik 2000,ioLogik 4200 and ioLogik 5000 Ethernet series
+
+Supported Platform:
+ x64 Linux are supported.
+
+Supported I/O modules:
+MXIO Linux Library supported below I/O modules.
+      ioLogik 4000 series: NA-4010, NA-4020, NA-4021
+                           M-1400, M-1401, M-1410, M-1411, M-1800, M-1801, M-1600, M-1601, M-1450, M-1451
+                           M-2400, M-2401, M-2800, M-2801, M-2600, M-2601, M-2402, M-2403, M-2404, M-2405, M-2250, M-2254
+                           M-3400, M-3401, M-3402, M-3403, M-3410, M-3411, M-3412, M-3413, M-3414, M-3415
+                           M-6200, M-6201
+                           M-4201, M-4202, M-4210, M-4211, M-4212
+      ioLogik 2000 series: E2210, E2212, E2240, E2260, R2110, R2140, E2214, E2242, E2262
+      ioLogik 4200 series: E4200
+                           M-1400, M-1401, M-1410, M-1411, M-1800, M-1801, M-1600, M-1601, M-1450, M-1451
+                           M-2400, M-2401, M-2800, M-2801, M-2600, M-2601, M-2402, M-2403, M-2404, M-2405, M-2250, M-2254
+                           M-3400, M-3401, M-3402, M-3403, M-3410, M-3411, M-3412, M-3413, M-3414, M-3415
+                           M-6200, M-6201
+                           M-4201, M-4202, M-4210, M-4211, M-4212
+	  ioLogik 5000 series: W5340, W5312
+	  ioLogik 1200 series: E1210, E1211, E1212, E1214, E1240, E1241, E1242, E1260, E1262, E1261-WP-T, E1261H, E1263H, E1213
+	  ioLogik 1500 series: E1510, E1512
+      ioLogik R1000 series: R1210, R1212, R1214, R1240, R1241
+Note:
+1. Click&Go command supported ioLogik E2000, ioLogik E4200 and ioLogik W5000 Active Remote I/O Server series
+

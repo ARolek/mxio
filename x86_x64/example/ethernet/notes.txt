@@ -1,0 +1,2 @@
+
+g++ -o EthernetE1200 EthernetE1200.cpp /usr/local/lib/libmxio_x64.a -lpthread
