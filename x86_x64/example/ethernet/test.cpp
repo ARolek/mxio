@@ -21,7 +21,8 @@ void CheckErr( int iRet, char * szFunctionName );		//check function execution re
 
 char DbgStr[1024] = {'\0'};
 
-int main(int   argc,   char   *argv[]){
+int main(int   argc,   char   *argv[])
+{
 	int iRet;			//stored return code
 	int	iHandle, iHandle2;		//stored handle for ioLogik 2000 serial
 	BYTE bytStatus;	 	//stored connection status
@@ -54,11 +55,13 @@ int main(int   argc,   char   *argv[]){
 	}
 	int count;
         int nnumber;
-        MODULE_LIST structML;
-
-        count = MXIO_AutoSearch(0,1,5,&nnumber, (char*)&structML);
-        printf("\n\ncount %d, int: %d, ip: %s\n\n",count,nnumber,structML.szModuleIP
-);
+        MODULE_LIST structML[];
+        // 255 selects all devices except the AOPC_SERVER if we want to include that use 511
+        iRet = MXIO_AutoSearch(255,3,5000,&nnumber, (char*)&structML);
+        CheckErr( iRet, (char *)"MXIO_AutoSearch");
+        if( iRet == MXIO_OK ){
+        	printf("\n\ncount: %d, ip: %s\n\n",nnumber,structML[0].szModuleIP);
+	}
 
 	//==========================
 	sprintf( DbgStr, "***** Press enter to Exit ***** : ");
