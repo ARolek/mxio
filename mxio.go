@@ -11,7 +11,7 @@ type Mxio struct {
 	IF *net.Interface
 	// The device types to search for. The default value is to search for
 	// all device types.
-	DeviceType deviceType
+	DeviceType DeviceType
 }
 
 // Finds all devices types on the first network interface that is up and can Boradcast.
@@ -28,8 +28,8 @@ func (m *Mxio) init() error {
 	if m == nil {
 		return errors.New("Mxio can not be nil!")
 	}
-	if m.DeviceType == deviceType(0) {
-		m.DeviceType = deviceType(511)
+	if m.DeviceType == DeviceType(0) {
+		m.DeviceType = ALL_DEVICES
 	}
 	if m.IF == nil {
 		interfaces, err := net.Interfaces()

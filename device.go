@@ -3,19 +3,19 @@ package mxio
 import "C"
 import "net"
 
-type deviceType C.int
+type DeviceType C.int
 
 const (
-	E4000_SERIES     = deviceType(1)
-	E2000_SERIES     = deviceType(2)
-	E4200_SERIES     = deviceType(4)
-	E1200_SERIES     = deviceType(8)
-	W5000_SERIES     = deviceType(16)
-	E1500_SERIES     = deviceType(64)
-	IOPac8000_SERIES = deviceType(128)
-	AOPC_SERVER      = deviceType(256)
+	E4000_SERIES     = DeviceType(1)
+	E2000_SERIES     = DeviceType(2)
+	E4200_SERIES     = DeviceType(4)
+	E1200_SERIES     = DeviceType(8)
+	W5000_SERIES     = DeviceType(16)
+	E1500_SERIES     = DeviceType(64)
+	IOPac8000_SERIES = DeviceType(128)
+	AOPC_SERVER      = DeviceType(256)
 
-	ALL_DEVICES = deviceType(511)
+	ALL_DEVICES = DeviceType(511)
 )
 
 type lan uint8
