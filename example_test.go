@@ -1,4 +1,4 @@
-package mxio_example
+package mxio
 
 import (
 	"fmt"

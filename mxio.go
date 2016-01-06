@@ -45,7 +45,9 @@ func (m *Mxio) init() error {
 				break
 			}
 		}
-		return NoInterfaces
+		if m.IF == nil {
+			return NoInterfaces
+		}
 	}
 	return nil
 }

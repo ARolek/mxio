@@ -1,5 +1,6 @@
 package mxio
 
+import "C"
 import "net"
 
 type deviceType C.int
