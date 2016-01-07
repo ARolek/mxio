@@ -1,5 +1,7 @@
 package mxio
 
+import "errors"
+
 type errorType int
 
 const (
@@ -144,3 +146,6 @@ func (err errorType) Error() string {
 	}
 	return "Unknown error."
 }
+
+// This is the error returned if no interfaces were found that can be used.
+var NoInterfaces = errors.New("No interfaces found.")
