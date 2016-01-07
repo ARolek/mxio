@@ -2,8 +2,8 @@
 package mxio
 
 // #cgo CFLAGS: -I/usr/local/include
-// #cgo LDFLAGS: clib/linux/libmxio_x64.a
-// #cgo LDFLAGS: -Lclib/linux -lstdc++ -lpthread -lmxio_x64
+// #cgo LDFLAGS: ${SRCDIR}/clib/linux/libmxio_x64.a
+// #cgo LDFLAGS: -L${SRCDIR}/clib/linux -lstdc++ -lpthread -lmxio_x64
 /*
 #include "gomxio.h"
 */
