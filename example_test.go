@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ARolek/mxio"
+	"github.com/arolek/mxio"
 )
 
 func ExampleAutoSearch() {
