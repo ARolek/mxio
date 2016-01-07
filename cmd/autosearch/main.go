@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ARolek/mxio"
+	"github.com/arolek/mxio"
 )
 
 var dtype = flag.String("device", "all", "Valid types: e4000, e2000, e4200, e1200, w5000, e1500, iopac8K, aopc")
