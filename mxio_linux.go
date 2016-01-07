@@ -36,7 +36,7 @@ func (m *Mxio) AutoSearch() ([]Device, error) {
 	if err := m.init(); err != nil {
 		return nil, err
 	}
-	ml := C.autoSearch(C.int(m.DeviceType), C.int(m.IF.Index), ifinfo, &c, &e)
+	ml := C.autoSearch(C.int(m.Retry), C.int(m.Timeout), C.int(m.DeviceType), C.int(m.IF.Index), ifinfo, &c, &e)
 	if ml == nil {
 		err := errorType(e)
 		if err == ok {

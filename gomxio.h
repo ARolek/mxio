@@ -17,6 +17,5 @@
 int initIF(WORD *wIFCount);
 char *getIFInfo(WORD *wIFCount, int *err);
 char *selectIF(DWORD index, int* err);
-MODULE_LIST *autoSearch(int deviceType,int IFidx, char *IFInfo, int *deviceCount, int *err );
-
+MODULE_LIST *autoSearch(int retry, int timeout, int deviceType,int IFidx, char *IFInfo, int *deviceCount, int *err ); 
 #endif

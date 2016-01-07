@@ -58,7 +58,7 @@ char *selectIF(DWORD index, int* err){
 }
 
 // Auto Search 
-MODULE_LIST *autoSearch(int deviceType,int IFidx, char *IFInfo, int *deviceCount, int *err ) {
+MODULE_LIST *autoSearch(int retry, int timeout, int deviceType,int IFidx, char *IFInfo, int *deviceCount, int *err ) {
 	// char *IFInfo = NULL;
 	MODULE_LIST *ml = (MODULE_LIST*) malloc(sizeof(MODULE_LIST) * 256);
 
@@ -68,7 +68,7 @@ MODULE_LIST *autoSearch(int deviceType,int IFidx, char *IFInfo, int *deviceCount
 		return NULL;
 	}
 	
-	*err = MXIO_AutoSearch(deviceType, 3, 5000, deviceCount, (char *)ml);
+	*err = MXIO_AutoSearch(deviceType, retry, timeout, deviceCount, (char *)ml);
 	if( *err != MXIO_OK){
 		free(ml);
 		return NULL;

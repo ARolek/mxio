@@ -3,6 +3,7 @@ package mxio
 import (
 	"errors"
 	"net"
+	"time"
 )
 
 type Mxio struct {
@@ -12,6 +13,10 @@ type Mxio struct {
 	// The device types to search for. The default value is to search for
 	// all device types.
 	DeviceType DeviceType
+	// The number of times to retry the search.
+	Retry uint8
+	// The number of millsecond to wait for results to come back
+	Timeout time.Duration
 }
 
 // Finds all devices types on the first network interface that is up and can Boradcast.
@@ -48,6 +53,14 @@ func (m *Mxio) init() error {
 		if m.IF == nil {
 			return NoInterfaces
 		}
+	}
+	if m.Timeout == 0 {
+		// we want to default the timeout to 5 seconds
+		m.Timeout = 5 * time.Second
+	}
+	if m.Retry == 0 {
+		// we want the default the retry to 3
+		m.Retry = 3
 	}
 	return nil
 }

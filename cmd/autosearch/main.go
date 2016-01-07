@@ -8,12 +8,15 @@ import (
 	"net"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/ARolek/mxio"
 )
 
 var dtype = flag.String("device", "all", "Valid types: e4000, e2000, e4200, e1200, w5000, e1500, iopac8K, aopc")
 var nif string
+var retry = flag.Int("retry", 3, "Number of retries.")
+var timeout = flag.Int("timeout", 5000, "Number of ms of timeout.")
 
 func init_interface() {
 	ifaces, err := net.Interfaces()
@@ -99,6 +102,8 @@ func main() {
 	m := mxio.Mxio{
 		IF:         ifn,
 		DeviceType: dt,
+		Retry:      uint8(*retry),
+		Timeout:    time.Duration(*timeout),
 	}
 	d, err := m.AutoSearch()
 	errout(err, 3)
