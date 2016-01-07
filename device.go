@@ -51,3 +51,17 @@ type Device struct {
 	// Which lan port is in use. These can be the valus Lan0 or Lan1
 	LanUse lan
 }
+
+func (d Device) LanIP() net.IP {
+	if d.LanUse == Lan0 {
+		return d.IP
+	}
+	return d.IP1
+}
+
+func (d Device) LanMAC() net.HardwareAddr {
+	if d.LanUse == Lan0 {
+		return d.MAC
+	}
+	return d.MAC1
+}
