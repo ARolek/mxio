@@ -57,7 +57,7 @@ const (
 func (err errorType) Error() string {
 	switch err {
 	case ok:
-		return "No Error: Funciton call was successful."
+		return "No Error: Function call was successful."
 	case ILLEGAL_FUNCTION:
 		return "Illegal Function: The function code received in the query is not an allowable action for the server (or slave)."
 	case ILLEGAL_DATA_ADDRESS:

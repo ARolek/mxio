@@ -29,6 +29,31 @@ func cMAC2NetMAC(m [6]C.char) (net.HardwareAddr, error) {
 	)
 }
 
+// GetIFacs will retrieve the list of interface name it sees.
+func GetIFacs() ([]string, error) {
+	var count C.ushort
+	var e C.int
+	var ifinfo *C.char
+	var names []string
+	ifinfo = C.getIFInfo(&count, &e)
+	err := errorType(e)
+	if err != ok {
+		return names, err
+	}
+	c := int(count)
+	if c == 0 {
+		return names, nil
+	}
+	if ifinfo == nil {
+		return names, nil
+	}
+	ifbytes := C.GoBytes(unsafe.Pointer(ifinfo), C.int(c*282))
+	for i := 0; i < c; i++ {
+		names = append(names, string(ifbytes[26+(i*282):(i+1)*282]))
+	}
+	return names, nil
+}
+
 // AutoSearch Will find the given device type on the given network.
 func (m *Mxio) AutoSearch() ([]Device, error) {
 	var c, e C.int
@@ -44,9 +69,10 @@ func (m *Mxio) AutoSearch() ([]Device, error) {
 		}
 		return nil, err
 	}
+	defer C.free(unsafe.Pointer(ifinfo))
 	defer C.free(unsafe.Pointer(ml))
 	count := int(c)
-	mlSlice := (*[1 << 30]C.MODULE_LIST)(unsafe.Pointer(ml))[:count:256]
+	mlSlice := (*[1 << 30]C.MODULE_LIST)(unsafe.Pointer(ml))[:count:count]
 
 	devices := make([]Device, count, count)
 	for i, d := range mlSlice {

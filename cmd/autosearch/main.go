@@ -105,6 +105,10 @@ func main() {
 		Retry:      uint8(*retry),
 		Timeout:    time.Duration(*timeout),
 	}
+	n, err := mxio.GetIFacs()
+	errout(err, 6)
+	fmt.Println(n)
+
 	d, err := m.AutoSearch()
 	errout(err, 3)
 	dmap["count"] = len(d)

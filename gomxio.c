@@ -16,7 +16,6 @@ int initIF(WORD *wIFCount) {
 // Init and GetIF info.
 char *getIFInfo(WORD *wIFCount, int *err){
 
-	char *IFInfo = NULL;
 	*err = initIF( wIFCount );
 	if( wIFCount == 0 ){
 		return NULL;
@@ -24,9 +23,9 @@ char *getIFInfo(WORD *wIFCount, int *err){
 	if( *err != MXIO_OK ){
 		return NULL;
 	}
-	IFInfo = malloc( *wIFCount * MX_IF_ONE_IF_SIZE );
+	char *IFInfo = malloc( *wIFCount * MX_IF_ONE_IF_SIZE );
 	*err = MXIO_GetIFInfo( *wIFCount, IFInfo );
-	if( err != MXIO_OK ){
+	if( *err != MXIO_OK ){
 		free(IFInfo);
 		IFInfo = NULL;
 		return NULL;
@@ -73,6 +72,15 @@ MODULE_LIST *autoSearch(int retry, int timeout, int deviceType,int IFidx, char *
 		free(ml);
 		return NULL;
 	}
+	printf("Date Dump($%d) :\n",*deviceCount);
+	int i;
+	for (i = 0; i < sizeof(MODULE_LIST)*256; i++ ){
+		printf("%02x ",*((char *)ml+i));
+		if ( i % 40 == 0){
+			printf("\n");
+		}
+	}
+	printf("\nEND Date Dump :\n");
 	return ml;
 }
 
